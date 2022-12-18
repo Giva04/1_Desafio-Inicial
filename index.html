@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Desafio Inicial </title>
+</head> 
+    <header>
+
+    <h2 class="home"> Home </h2>
+    <h2 class="cadMed"> Cadastro de Medicamentos </h2>
+    <h2 class="cadVaci"> Cadastro Vacinas </h2>
+    <h2 class="cadCos"> Cadastro de Cosméticos </h2>
+
+    </header>
+    
+<body>
+        
+        <section id="sec-form">
+        <div id="form">
+
+         <div id="retangulo">
+        <img src="logo_remedio.png">
+        <h1> Cadastro de Medicamentos </h1>
+        </div>  
+        <p> Farmácia da Gente </p> 
+           
+        
+        
+            <form onsubmit="addMedicamento()">
+                <label for="Medicamento"> Nome do Medicamento </label>
+                <input autocomplete="off" type="text" required="fmed" name="Medicamento">
+
+                <label for="qtdMedicamento"> Quantidade Disponível </label>
+                <input autocomplete="off" type="number" required="fqtdmedicamento" name= "Quantidade Disponível">
+
+                <label for="fpreço"> Preço por Unidade </label>
+                <input autocomplete="off" type="number" required="fmed" name="Preço por Unidade">
+
+                <label for="fclasse"> Classe Medicamento </label>
+                <input stlyle="margin-bottom:30px   ;" autocomplete="off" type="text" required="fmed" name="Classe Medicamento">
+
+                <button class="submit-button" type="submit">Cadatrar</button>
+
+            </form>
+
+        </section> 
+        </div>
+       
+
+
+     
+    
+</body>
+</html>
